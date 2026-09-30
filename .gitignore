@@ -1,0 +1,14 @@
+.env
+env.txt
+data/*.db
+data/logs/
+data/sessions/
+data/uploads/
+__pycache__/
+*.pyc
+*.pyo
+*.session
+venv/
+.venv/
+.vscode/
+.idea/
