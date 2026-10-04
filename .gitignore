@@ -1,6 +1,7 @@
 # Secrets
 .env
 *.env
+.env.*
 *.session
 sessions/
 
@@ -11,6 +12,7 @@ __pycache__/
 *.pyd
 .venv/
 venv/
+env/
 
 # Logs
 *.log
@@ -20,11 +22,14 @@ logs/
 *.db
 *.sqlite
 *.sqlite3
+data/
 
-# IDE
+# IDE / OS
 .vscode/
 .idea/
-
-# OS
 .DS_Store
 Thumbs.db
+
+# Termux
+*.bak
+nohup.out
