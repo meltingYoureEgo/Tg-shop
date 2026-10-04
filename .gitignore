@@ -1,14 +1,30 @@
+# Secrets
 .env
-env.txt
-data/*.db
-data/logs/
-data/sessions/
-data/uploads/
+*.env
+*.session
+sessions/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
-*.session
-venv/
+*.pyd
 .venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
